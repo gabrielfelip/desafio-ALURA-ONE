@@ -142,7 +142,6 @@ ul {
     text-align: center;
 }
 
-/* Botão de sortear título */
 .button-draw {
     display: flex;
     align-items: center;
@@ -159,4 +158,44 @@ ul {
 
 .button-draw:hover {
     background-color: var(--color-button-hover);
+}
+
+.button-reset {
+    background-color: var(--color-tertiary); 
+    color: var(--color-text); 
+    border: 2px solid #000;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 15px 30px; 
+    margin-left: 10px; 
+    transition: background-color 0.3s ease; 
+}
+
+.button-reset:hover {
+    background-color: #a1a1a1; 
+}
+
+.name-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+    border-bottom: 1px solid #ccc; 
+}
+
+.remover-amigo {
+    color: #ff4d4d; 
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: 1.2em;
+    transition: color 0.2s ease;
+}
+
+.remover-amigo:hover {
+    color: #cc0000; 
 }
